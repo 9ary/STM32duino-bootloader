@@ -50,13 +50,11 @@ int main()
     {
         case 0x01:
             no_user_jump = TRUE;
-            strobePin(LED_BANK, LED_PIN, STARTUP_BLINKS, BLINK_FAST,LED_ON_STATE);
         break;
         case 0x02:
             dont_wait=TRUE;
         break;
         default:
-            strobePin(LED_BANK, LED_PIN, STARTUP_BLINKS, BLINK_FAST,LED_ON_STATE);
             if (!checkUserCode(USER_CODE_FLASH0X8005000) && !checkUserCode(USER_CODE_FLASH0X8002000))
             {
                 no_user_jump = TRUE;
@@ -64,6 +62,10 @@ int main()
             else if (readButtonState())
             {
                 no_user_jump = TRUE;
+            }
+            else
+            {
+                dont_wait = TRUE;
             }
         break;
     }
