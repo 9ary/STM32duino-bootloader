@@ -148,6 +148,7 @@ copy_maple_mini:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/maple_mini_boot20.bin
 	@echo
 
@@ -160,6 +161,7 @@ copy_maple-rev3:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/maple_rev3_boot20.bin
 	@echo
 
@@ -171,6 +173,7 @@ copy_maple-rev5:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/maple_rev5_boot20.bin
 	@echo
 
@@ -183,6 +186,7 @@ copy_generic-pc13:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pc13.bin
 	@echo
 
@@ -194,6 +198,7 @@ copy_generic-pg15:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pg15.bin
 	@echo
 
@@ -206,6 +211,7 @@ copy_generic-pd2:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pd2.bin
 	@echo
 
@@ -218,6 +224,7 @@ copy_generic-pd1:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pd1.bin
 	@echo
 
@@ -229,6 +236,7 @@ copy_generic-pa1:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pa1.bin
 	@echo
 
@@ -240,6 +248,7 @@ copy_generic-pa1-button-pa8:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pa1_button_pa8.bin
 	@echo
 
@@ -251,6 +260,7 @@ copy_generic-pb9:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb9.bin
 	@echo
 
@@ -263,6 +273,7 @@ copy_generic-pe2:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pe2.bin
 	@echo
 
@@ -275,6 +286,7 @@ copy_generic-pa9:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pa9.bin
 	@echo
 
@@ -287,6 +299,7 @@ copy_generic-pe5:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pe5.bin
 	@echo
 
@@ -299,6 +312,7 @@ copy_generic-pe5-button-pa0:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pe5_button_pa0.bin
 	@echo
 
@@ -311,6 +325,7 @@ copy_generic-pb7:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb7.bin
 	@echo
 
@@ -322,6 +337,7 @@ copy_generic-pb0:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb0.bin
 	@echo
 
@@ -334,6 +350,7 @@ copy_stbee:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/stbee_boot20.bin
 	@echo
 
@@ -345,6 +362,7 @@ copy_naze32:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/naze32_boot20.bin
 	@echo
 
@@ -356,6 +374,7 @@ copy_generic-pb12:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_pb12.bin
 	@echo
 
@@ -367,6 +386,7 @@ copy_hytiny-stm32f103t:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/generic_boot20_hytiny.bin
 	@echo
 
@@ -378,6 +398,7 @@ copy_dso138:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/dso138_boot20.bin
 	@echo
 
@@ -389,6 +410,7 @@ copy_gd32f1-generic-pc13:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/gd32f1_generic_boot20_pc13.bin
 	@echo
 
@@ -400,6 +422,7 @@ copy_gd32f1-frankenmaple:
 	@echo
 	@echo "Copying to binaries folder"
 	@echo
+	@mkdir -p bootloader_only_binaries
 	cp $(TARGET).bin bootloader_only_binaries/gd32f1_frankenmaple.bin
 	@echo
 
